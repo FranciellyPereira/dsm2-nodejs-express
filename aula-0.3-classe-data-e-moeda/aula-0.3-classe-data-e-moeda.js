@@ -113,3 +113,8 @@ console.log(nome.toLowerCase())
 
 //CONTANDO CARACTERES DE STRING
 console.log(nome.length)
+
+// REMOVENDO ESPAÇOS
+const novoNome = nome.replace(/\s/g, "")
+console.log(novoNome)
+console.log(novoNome.length)
